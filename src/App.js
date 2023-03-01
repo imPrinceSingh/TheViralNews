@@ -28,7 +28,7 @@ function App() {
    const pull =(data)=>{
     setNextd(data)
    }
-  function set() {
+  const set=()=> {
     setText(query);
     setQuery("");
   }
