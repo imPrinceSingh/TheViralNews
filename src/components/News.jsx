@@ -3,7 +3,7 @@ import { ThreeDots } from 'react-loader-spinner'
 import { useEffect } from 'react'
 import def_img from '../Images/TVN_logo.JPG'
 import api from '../Key.json'
-// import apiData from '../Data.json'
+import apiData from '../Data.json'
 
 const News = ({category,pages,func}) => {
     //  const [data, next,load] = useFetch(`https://newsapi.org/v2/top-headlines?${category}&apiKey=${api.key}&page=${pages}&pagesize=10`)
