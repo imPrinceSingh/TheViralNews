@@ -6,9 +6,9 @@ import api from '../Key.json'
 // import apiData from '../Data.json'
 
 const News = ({category,pages,func}) => {
-     const [data, next,load] = useFetch(`https://newsapi.org/v2/top-headlines?${category}&apiKey=${api.key}&page=${pages}&pagesize=10`)
-    // const {next,load}= [5,true]
-    // const data = apiData.articles     
+    //  const [data, next,load] = useFetch(`https://newsapi.org/v2/top-headlines?${category}&apiKey=${api.key}&page=${pages}&pagesize=10`)
+    const {next,load}= [5,true]
+    const data = apiData.articles     
      func(next)
     
     return (
